@@ -139,7 +139,7 @@ session_start();
                 <input class="submit" type="submit" value="Login">
             </div>
             <div class="link-signup">
-                <a class="signup" href="signup.php">Click to Signup</a>
+                <a class="signup" href="signup.php">lick to Signup</a>
             </div>
         </form>
 
