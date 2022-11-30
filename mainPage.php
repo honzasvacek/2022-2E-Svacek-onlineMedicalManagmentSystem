@@ -6,6 +6,7 @@ session_start();
 
     $user_data = check_login($con);
 
+
 ?>
 
 
@@ -21,7 +22,10 @@ session_start();
     <h1>This is a main page</h1>
 
     <br>
-    Hello, <?php echo $user_data['user_name']; ?>
+    Hello, 
+    <?php
+        echo $user_data['user_name'];
+    ?>
     
 
 </body>

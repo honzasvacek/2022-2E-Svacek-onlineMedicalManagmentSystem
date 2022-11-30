@@ -21,9 +21,10 @@ session_start();
 
             if($result)
             {
+                
 
                 //jestli je result true = zadane user_name je i v databazi
-                if($result && mysqli_num_rows($result) > 0)
+                if(/*$result && */mysqli_num_rows($result) > 0)
                 {
                     $user_data = mysqli_fetch_assoc($result);
                     
@@ -37,10 +38,10 @@ session_start();
                 }
 
             }
-            echo "Please enter some valid information!";
+            echo "wrong username or password";
         }else
         {
-            echo "Please enter some valid information!";
+            echo "wrong username or password";
         }
     }
 
