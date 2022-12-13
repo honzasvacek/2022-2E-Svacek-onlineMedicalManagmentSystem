@@ -27,8 +27,11 @@ SET time_zone = "+00:00";
 -- Struktura tabulky `users`
 --
 
+<<<<<<< HEAD
 
 USE login_onlinemedicalmanagmensystem;
+=======
+>>>>>>> 3c874bb42d4a160cbda983ee5b0d768e9fd65ef4
 CREATE TABLE `users` (
   `id` bigint(20) NOT NULL,
   `user_id` bigint(20) NOT NULL,
@@ -52,7 +55,11 @@ INSERT INTO `users` (`id`, `user_id`, `user_name`, `password`, `date`) VALUES
 --
 
 --
+<<<<<<< HEAD
 -- Indexy pro tabulku `users`
+=======
+-- Indexy pro tabulku `users`
+>>>>>>> 3c874bb42d4a160cbda983ee5b0d768e9fd65ef4
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
@@ -73,4 +80,8 @@ COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+<<<<<<< HEAD
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+=======
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+>>>>>>> 3c874bb42d4a160cbda983ee5b0d768e9fd65ef4
