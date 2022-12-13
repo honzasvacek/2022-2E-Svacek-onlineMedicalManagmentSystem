@@ -1,10 +1,11 @@
 <?php
 session_start();
 
-    include("connection.php0");
+    include("connection.php");
     include("functions.php");
 
     $user_data = check_login($con);
+
 
 ?>
 
@@ -18,10 +19,8 @@ session_start();
 <body>
     
     <a href="logout.php"> Logout </a>
-    <h1>This is a main page</h1>
-
-    <br>
-    Hello, Username
+    
+    
 
 </body>
 </html>
