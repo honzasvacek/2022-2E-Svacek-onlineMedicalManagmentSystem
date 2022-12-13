@@ -39,12 +39,17 @@ session_start();
     <style> 
 
         .box{
-            height: 300px;
-            width: 300px;
+            position: fixed;
+            top: 300px;
+            bottom: 300px;
+            left: 575px;
+            right: 575px;
+            min-width: 300px;
+            min-height: 200px;
         }
 
         .form{
-            background-color: darkblue;
+            background-color: rgb(112,128,144);
             width: 100%;
             height: 100%;
             display: flex;
@@ -98,15 +103,30 @@ session_start();
             margin-bottom: 15px;
         }
 
+        .login:hover {
+            color: lightgray;
+        }
+
         .login {
             font-size: 15px;
             color: white;
+        }
+
+        .intro_logo_image_container {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;    
         }
 
     
     </style>
 </head>
 <body>
+    <div class="intro_logo_image_container">
+        <img class="intro_logo_image" src="images/intro_logo.avif">
+    </div>
 
     <div class="box">
 
